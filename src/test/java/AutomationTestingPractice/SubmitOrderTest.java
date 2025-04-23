@@ -22,7 +22,7 @@ import AutomationTestingPractice.pageObjects.ProductCatalogue;
 public class SubmitOrderTest extends BaseTest {
 	
 		String productName ="ADIDAS ORIGINAL";
-		
+		//demo
 		@Test(dataProvider="getData", groups= {"Purchase"})
 		public void submitOrder(HashMap<String, String> input) throws IOException {
 			
